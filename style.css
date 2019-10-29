@@ -1,0 +1,187 @@
+* {
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+body {
+	text-align: center;
+}
+
+body[viewMode=dark] {
+	background-color: #000;
+	color: #fff;
+}
+
+body[viewMode=dark] a {
+	color: #fff;
+}
+
+a.currentPage, body[viewMode=dark] a.currentPage {
+	color: red;
+}
+
+body[viewMode=dark] .fontCard {
+	color: #fff;
+	border-top: 1px solid #fff;
+
+}
+
+body[viewMode=dark] input {
+	color: #fff;
+}
+
+body[viewMode=dark] #reset {
+	color: #777;
+}
+
+#fontCardsManipulation {
+	border: 1px solid #ddd;
+	line-height: 30px;
+	border-radius: 16px;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+
+#reset {
+	 font-family: webdings;
+	 border: 0;
+	 background: transparent;
+	 font-size: 20px;
+}
+
+
+input {
+	border: 0;
+	background: transparent;
+	border-right: 1px solid #ddd;
+}
+
+select {
+	border: 0;
+	color: #888;
+	background: transparent;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+}
+
+#logo {
+	display: inline-block;
+	width: 400px;
+	text-align: left;
+	font-size: 23px;
+}
+
+nav {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+a {
+	color: #888;
+}
+
+button {
+	cursor: pointer;
+}
+
+footer {
+    font-size: 11px;
+    margin: 30px 0 0 0;
+    line-height: 35px;
+    background-image: linear-gradient(#fff, #bbb);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+main {
+	display: none;
+}
+
+.fontCard {
+	width: 30%;
+	display: inline-table;
+	text-align: left;
+	border-top: 1px solid #000;
+	padding: 20px 0;
+	margin: 1%;
+	word-break: break-word;
+}
+
+.fontCard .text {
+	margin: 20px 0;
+	overflow-wrap: break-word;
+}
+
+main[fontsize='20px'] .fontCard .text {
+	font-size: 20px;
+}
+main[fontsize='24px'] .fontCard .text {
+	font-size: 24px;
+}
+main[fontsize='32px'] .fontCard .text {
+	font-size: 32px;
+}
+main[fontsize='40px'] .fontCard .text {
+	font-size: 40px;
+}
+
+
+#goToTop {
+	display: none;
+	position: fixed;
+	right: 0;
+	bottom: 60px;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.addFont {
+    float: right;
+    border: 0.5px outset red;
+    border-radius: 50%;
+    background: transparent;
+    color: red;
+    width: 22px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 0;
+}
+
+input[name=viewMode] {
+	/**/
+    border: 0.5px solid #777;
+    -webkit-appearance: unset;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 0;
+}
+
+input[name=viewMode][value=dark] {
+	background: black;	
+}
+
+.spacer {
+	width: 20px;
+	display: inline-block;
+}
+
+#mainFontList {
+	vertical-align: top;
+}
