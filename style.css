@@ -4,7 +4,6 @@
 	font-size: 14px;
 }
 
-
 body {
 	text-align: center;
 }
@@ -106,9 +105,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-main {
-	display: none;
-}
 
 .fontCard {
 	width: 30%;
@@ -118,6 +114,7 @@ main {
 	padding: 20px 0;
 	margin: 1%;
 	word-break: break-word;
+	vertical-align: top;
 }
 
 .fontCard .text {
@@ -186,6 +183,6 @@ input[name=viewMode][value=dark] {
 	display: inline-block;
 }
 
-#mainFontList {
-	vertical-align: top;
+#main table {
+	width: 100%;
 }
