@@ -8,6 +8,10 @@ body {
 	text-align: center;
 }
 
+body[listView=true] .fontCard {
+	width: 94%;
+}
+
 body[viewMode=dark] {
 	background-color: #000;
 	color: #fff;
@@ -44,14 +48,17 @@ body[viewMode=dark] #reset {
 }
 
 #reset {
-	 font-family: webdings;
 	 border: 0;
 	 background: #fff;
-	 font-size: 20px;
 	 border-radius: 50%;
 }
 
-#reset img {
+#listView {
+	border: 0;
+	background: #fff;
+}
+
+#reset img, #listView img {
 	width: 15px;
 }
 

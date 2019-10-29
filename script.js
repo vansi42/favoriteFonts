@@ -3,6 +3,7 @@ const fontsPerPage = 20;
 var currentlyDisplays = 0;
 const defaultFontSize = "32px";
 const defaultText = "Then came the night of the first falling star.";
+var listView = false;
 
 $(function () {
 	$.ajax({
@@ -108,6 +109,8 @@ var reset = function () {
 	document.getElementById("search").value = "";
 	document.getElementById("light").checked = true;
 	setViewMode('light');
+	listView = true;
+	changeListView();
 	search();
 }
 
@@ -183,4 +186,9 @@ var getDefaultVariant = function (variants) {
 
 var setViewMode = function (mode) {
 	document.body.setAttribute("viewMode", mode);
+}
+
+var changeListView = function () {
+	listView = !listView;
+	document.body.setAttribute("listView", listView);
 }
