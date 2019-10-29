@@ -33,7 +33,7 @@ body[viewMode=dark] input {
 }
 
 body[viewMode=dark] #reset {
-	color: #777;
+	background-color: #fff;
 }
 
 #fontCardsManipulation {
@@ -47,10 +47,14 @@ body[viewMode=dark] #reset {
 #reset {
 	 font-family: webdings;
 	 border: 0;
-	 background: transparent;
+	 background: #fff;
 	 font-size: 20px;
+	 border-radius: 50%;
 }
 
+#reset img {
+	width: 15px;
+}
 
 input {
 	border: 0;
