@@ -3,8 +3,6 @@ const fontsPerPage = 20;
 var currentlyDisplays = 0;
 const defaultFontSize = "32px";
 const defaultText = "Then came the night of the first falling star.";
-const googleFontsAPIKey = config.gfda;
-
 
 $(function () {
 	$.ajax({
@@ -15,6 +13,13 @@ $(function () {
 		}
 	});
 });
+
+var getApiKey = function () {
+	var url = window.location.href;
+	//console.log(url.indexOf("gfak="));
+	return (url.substring(url.indexOf("gfak=")+5));
+}
+const googleFontsAPIKey = getApiKey();
 
 var fixSpaces = function (str, c) {
 	return (str.replace(/ /g, c));

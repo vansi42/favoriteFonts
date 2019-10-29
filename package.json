@@ -1,14 +1,22 @@
 {
-  "name": "favorite_fonts",
+  "name": "favoritefonts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Get a bunch of free fonts from Google Fonts and play around with them!",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vansi42/favoriteFonts.git"
+  },
+  "author": "Sivan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vansi42/favoriteFonts/issues"
+  },
+  "homepage": "https://github.com/vansi42/favoriteFonts#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

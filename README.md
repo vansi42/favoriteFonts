@@ -2,12 +2,9 @@
 Get a list of fonts from Google's API and play around with them.
 
 ** SPECIAL NOTICE **
-For the whole thing to work, you need to create a "config.js" file that includes only:
+For the whole thing to work, you need to add a parameter in the url, like this:
 
-var config = {
-  "gfda": "[GOGLE_FONTS_DEVELOPER_API_KEY]"  // insert here real api key
-};
-
+https://[host]:[port]?gfda=[google_fonts_developer_api_key]
 
 -------------------------------------------------------------------------------------------------
 
@@ -36,3 +33,4 @@ Not yet:
 - Build a back-end
 - List view
 - Download font to local storage
+- Figure out a better way to contain the api key for Google Fonts, maybe envioronment variables
