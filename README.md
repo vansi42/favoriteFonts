@@ -33,4 +33,4 @@ Not yet:
 - Build a back-end
 - List view
 - Download font to local storage
-- Figure out a better way to contain the api key for Google Fonts, maybe envioronment variables
+- Figure out a better way to contain the api key for Google Fonts, maybe environment variables
