@@ -1,7 +1,7 @@
 # Favorite-fonts
 Get a list of fonts from Google's API and play around with them.
 
-##SPECIAL NOTICE
+## SPECIAL NOTICE
 
 For the whole thing to work, you need to add a parameter in the url, like this:
 
