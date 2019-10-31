@@ -3,9 +3,11 @@ Get a list of fonts from Google's API and play around with them.
 
 ## SPECIAL NOTICE
 
-For the whole thing to work, you need to add a parameter in the url, like this:
+If you want to download this repository and use it locally, you'll need a key for Google Fonts Developer API.
+You can get it here: https://developers.google.com/fonts/docs/developer_api
 
-https://[host]:[port]?**gfda=[google_fonts_developer_api_key]**
+I've used it as an environment variable. If you have any questions about that, please feel free to ask me!
+
 
 -------------------------------------------------------------------------------------------------
 

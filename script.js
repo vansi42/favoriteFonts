@@ -7,20 +7,13 @@ var listView = false;
 
 $(function () {
 	$.ajax({
-		url: "https://www.googleapis.com/webfonts/v1/webfonts?key="+googleFontsAPIKey+"&sort=popularity",
+		url: "getFontsObject",
 		success: function (data) {
 			prepareFontList(data);
 			reset();
 		}
 	});
 });
-
-var getApiKey = function () {
-	var url = window.location.href;
-	//console.log(url.indexOf("gfak="));
-	return (url.substring(url.indexOf("gfak=")+5));
-}
-const googleFontsAPIKey = getApiKey();
 
 var fixSpaces = function (str, c) {
 	return (str.replace(/ /g, c));
@@ -95,12 +88,9 @@ var loadMoreFonts = function (min) {
 			fontList[i].isShown=1;
 		}
 	}	
-
-	if (newHtml != "") {
-//		document.getElementById("main").innerHTML += newHtml;
-	}
 }
 
+// Change all input values to default
 var reset = function () {
 	document.getElementById("title").value = "";
 	updateText();
