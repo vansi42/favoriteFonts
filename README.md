@@ -1,10 +1,11 @@
 # Favorite-fonts
 Get a list of fonts from Google's API and play around with them.
 
-** SPECIAL NOTICE **
+##SPECIAL NOTICE
+
 For the whole thing to work, you need to add a parameter in the url, like this:
 
-https://[host]:[port]?gfda=[google_fonts_developer_api_key]
+https://www.hostname.com:port?*gfda=[google_fonts_developer_api_key]*
 
 -------------------------------------------------------------------------------------------------
 
@@ -17,7 +18,7 @@ dark/light mode are based on adding a classname to body, and CSS changes to all 
 
 I want to use React for implementing this webpage, it seems like a good fit. It will be my next step.
 
-Please feel free to contact me if you have any questions, ideas, or if you heard a really good knock-knock joke!
+Please feel free to contact me if you have any questions, ideas, or if you heard a really good knock-knock joke! :trollface:
 
 
 Implemented:
@@ -25,12 +26,12 @@ Implemented:
 - Search by font name (family)
 - Change displayed text for each font
 - Light/dark mode
+- List view
 - Reset button
 
 Not yet:
 - Responsive design
 - Implement with react
 - Build a back-end
-- List view
 - Download font to local storage
 - Figure out a better way to contain the api key for Google Fonts, maybe environment variables
