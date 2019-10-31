@@ -5,7 +5,7 @@ Get a list of fonts from Google's API and play around with them.
 
 For the whole thing to work, you need to add a parameter in the url, like this:
 
-https://www.hostname.com:port?*gfda=[google_fonts_developer_api_key]*
+https://[host]:[port]?*gfda=[google_fonts_developer_api_key]*
 
 -------------------------------------------------------------------------------------------------
 
