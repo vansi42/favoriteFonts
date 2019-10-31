@@ -30,10 +30,10 @@ Implemented:
 - Light/dark mode
 - List view
 - Reset button
+- Contain the api key for Google Fonts as an environment variable
 
 Not yet:
 - Responsive design
 - Implement with react
 - Build a back-end
 - Download font to local storage
-- Figure out a better way to contain the api key for Google Fonts, maybe environment variables
