@@ -1,5 +1,6 @@
 # Favorite-fonts
 Get a list of fonts from Google's API and play around with them.
+See it live: https://favorite-fonts.herokuapp.com/
 
 ## SPECIAL NOTICE
 
