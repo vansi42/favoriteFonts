@@ -107,7 +107,7 @@ button {
 }
 
 footer {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 3rem;
     background-image: linear-gradient(#fff, #bbb);
     position: fixed;
@@ -196,6 +196,18 @@ input[name=viewMode][value=dark] {
 	width: 100%;
 }
 
+@media (max-width: 450px) {
+	footer {
+		font-size: 0.7rem;
+	}
+	#search, #title {
+		width: 40%;
+	}
+	#sizePicker {
+		width: 15%;
+	}
+}
+
 @media (max-width: 550px) {
 	.fontCard {
 		width: 100%;
@@ -208,6 +220,7 @@ input[name=viewMode][value=dark] {
 	#links {
 		display: none;
 	}
+
 }
 
 @media (min-width: 550px) and (max-width: 750px) {
