@@ -51,7 +51,7 @@ var loadMoreFonts = function (min) {
 			variant = fontList[i].variant;
 			
 			//newFontCard = document.createElement("li");
-			newFontCard = document.createElement("td");
+			newFontCard = document.createElement("li");
 			newFontCard.setAttribute("class", "fontCard " + familyNoSpaces);
 			
 			extraButton = document.createElement("button");

@@ -192,10 +192,6 @@ input[name=viewMode][value=dark] {
 	display: inline-block;
 }
 
-#main table {
-	width: 100%;
-}
-
 @media (max-width: 450px) {
 	footer {
 		font-size: 0.7rem;
